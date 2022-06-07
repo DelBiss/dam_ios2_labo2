@@ -15,6 +15,18 @@
 		F035E183284B76CC00E6F2E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F035E181284B76CC00E6F2E6 /* LaunchScreen.storyboard */; };
 		F035E18E284B76CC00E6F2E6 /* penduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F035E18D284B76CC00E6F2E6 /* penduTests.swift */; };
 		F035E199284B76CC00E6F2E6 /* penduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F035E198284B76CC00E6F2E6 /* penduUITests.swift */; };
+		F035E1AE284B79A000E6F2E6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F035E1AC284B79A000E6F2E6 /* GameViewController.swift */; };
+		F035E1AF284B79A000E6F2E6 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F035E1AD284B79A000E6F2E6 /* GameViewController.xib */; };
+		F035E1BC284B807100E6F2E6 /* GameStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F035E1BB284B807100E6F2E6 /* GameStoryboard.storyboard */; };
+		F035E1CB284BB54600E6F2E6 /* KeyboardButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F035E1CA284BB54600E6F2E6 /* KeyboardButtonController.swift */; };
+		F035E1D0284BB7FA00E6F2E6 /* KeyboardButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F035E1CF284BB7FA00E6F2E6 /* KeyboardButtonView.xib */; };
+		F035E1DB284BE7D700E6F2E6 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F035E1DA284BE7D700E6F2E6 /* KeyboardView.xib */; };
+		F035E1E0284BE89500E6F2E6 /* KeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F035E1DF284BE89500E6F2E6 /* KeyboardController.swift */; };
+		F035E1EB284C207F00E6F2E6 /* AnwserLetterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F035E1EA284C207F00E6F2E6 /* AnwserLetterView.xib */; };
+		F035E1F0284C24A900E6F2E6 /* AnwserLetterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F035E1EF284C24A900E6F2E6 /* AnwserLetterController.swift */; };
+		F035E1F5284C25B300E6F2E6 /* AnswerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F035E1F4284C25B300E6F2E6 /* AnswerController.swift */; };
+		F035E1FB284C30CC00E6F2E6 /* RandomFrenchWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F035E1FA284C30CC00E6F2E6 /* RandomFrenchWord.swift */; };
+		F035E203284D857700E6F2E6 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F035E202284D857700E6F2E6 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		F035E194284B76CC00E6F2E6 /* penduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = penduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F035E198284B76CC00E6F2E6 /* penduUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = penduUITests.swift; sourceTree = "<group>"; };
 		F035E19A284B76CC00E6F2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F035E1AC284B79A000E6F2E6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F035E1AD284B79A000E6F2E6 /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		F035E1BB284B807100E6F2E6 /* GameStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = GameStoryboard.storyboard; path = Views/GameStoryboard.storyboard; sourceTree = "<group>"; };
+		F035E1CA284BB54600E6F2E6 /* KeyboardButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButtonController.swift; sourceTree = "<group>"; };
+		F035E1CF284BB7FA00E6F2E6 /* KeyboardButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardButtonView.xib; sourceTree = "<group>"; };
+		F035E1DA284BE7D700E6F2E6 /* KeyboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardView.xib; sourceTree = "<group>"; };
+		F035E1DF284BE89500E6F2E6 /* KeyboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardController.swift; sourceTree = "<group>"; };
+		F035E1EA284C207F00E6F2E6 /* AnwserLetterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnwserLetterView.xib; sourceTree = "<group>"; };
+		F035E1EF284C24A900E6F2E6 /* AnwserLetterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnwserLetterController.swift; sourceTree = "<group>"; };
+		F035E1F4284C25B300E6F2E6 /* AnswerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerController.swift; sourceTree = "<group>"; };
+		F035E1FA284C30CC00E6F2E6 /* RandomFrenchWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFrenchWord.swift; sourceTree = "<group>"; };
+		F035E202284D857700E6F2E6 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +123,12 @@
 		F035E175284B76CA00E6F2E6 /* pendu */ = {
 			isa = PBXGroup;
 			children = (
+				F035E1F9284C30AB00E6F2E6 /* Models */,
 				F035E176284B76CA00E6F2E6 /* AppDelegate.swift */,
 				F035E178284B76CA00E6F2E6 /* SceneDelegate.swift */,
-				F035E17A284B76CA00E6F2E6 /* ViewController.swift */,
-				F035E17C284B76CA00E6F2E6 /* Main.storyboard */,
+				F035E1C8284BB4D700E6F2E6 /* Controllers */,
+				F035E1C9284BB4FF00E6F2E6 /* View */,
+				F035E1BB284B807100E6F2E6 /* GameStoryboard.storyboard */,
 				F035E17F284B76CC00E6F2E6 /* Assets.xcassets */,
 				F035E181284B76CC00E6F2E6 /* LaunchScreen.storyboard */,
 				F035E184284B76CC00E6F2E6 /* Info.plist */,
@@ -126,6 +152,40 @@
 				F035E19A284B76CC00E6F2E6 /* Info.plist */,
 			);
 			path = penduUITests;
+			sourceTree = "<group>";
+		};
+		F035E1C8284BB4D700E6F2E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F035E17A284B76CA00E6F2E6 /* ViewController.swift */,
+				F035E1CA284BB54600E6F2E6 /* KeyboardButtonController.swift */,
+				F035E1AC284B79A000E6F2E6 /* GameViewController.swift */,
+				F035E1DF284BE89500E6F2E6 /* KeyboardController.swift */,
+				F035E1EF284C24A900E6F2E6 /* AnwserLetterController.swift */,
+				F035E1F4284C25B300E6F2E6 /* AnswerController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F035E1C9284BB4FF00E6F2E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F035E17C284B76CA00E6F2E6 /* Main.storyboard */,
+				F035E1AD284B79A000E6F2E6 /* GameViewController.xib */,
+				F035E1DA284BE7D700E6F2E6 /* KeyboardView.xib */,
+				F035E1CF284BB7FA00E6F2E6 /* KeyboardButtonView.xib */,
+				F035E1EA284C207F00E6F2E6 /* AnwserLetterView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F035E1F9284C30AB00E6F2E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F035E1FA284C30CC00E6F2E6 /* RandomFrenchWord.swift */,
+				F035E202284D857700E6F2E6 /* Game.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +291,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F035E1EB284C207F00E6F2E6 /* AnwserLetterView.xib in Resources */,
+				F035E1AF284B79A000E6F2E6 /* GameViewController.xib in Resources */,
+				F035E1BC284B807100E6F2E6 /* GameStoryboard.storyboard in Resources */,
 				F035E183284B76CC00E6F2E6 /* LaunchScreen.storyboard in Resources */,
 				F035E180284B76CC00E6F2E6 /* Assets.xcassets in Resources */,
 				F035E17E284B76CA00E6F2E6 /* Main.storyboard in Resources */,
+				F035E1DB284BE7D700E6F2E6 /* KeyboardView.xib in Resources */,
+				F035E1D0284BB7FA00E6F2E6 /* KeyboardButtonView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +323,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F035E1AE284B79A000E6F2E6 /* GameViewController.swift in Sources */,
+				F035E203284D857700E6F2E6 /* Game.swift in Sources */,
+				F035E1CB284BB54600E6F2E6 /* KeyboardButtonController.swift in Sources */,
 				F035E17B284B76CA00E6F2E6 /* ViewController.swift in Sources */,
 				F035E177284B76CA00E6F2E6 /* AppDelegate.swift in Sources */,
+				F035E1E0284BE89500E6F2E6 /* KeyboardController.swift in Sources */,
+				F035E1FB284C30CC00E6F2E6 /* RandomFrenchWord.swift in Sources */,
+				F035E1F5284C25B300E6F2E6 /* AnswerController.swift in Sources */,
 				F035E179284B76CA00E6F2E6 /* SceneDelegate.swift in Sources */,
+				F035E1F0284C24A900E6F2E6 /* AnwserLetterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
