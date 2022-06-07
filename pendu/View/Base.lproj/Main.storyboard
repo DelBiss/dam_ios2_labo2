@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EhW-Qt-una">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rXc-Q6-kHO">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -23,12 +23,35 @@
             </objects>
             <point key="canvasLocation" x="-49" y="-109"/>
         </scene>
-        <!--Dictionnaire-->
+        <!--Jeux du pendu-->
+        <scene sceneID="T16-xM-c91">
+            <objects>
+                <navigationController title="Jeux du pendu" id="rXc-Q6-kHO" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pEo-Am-Qkr">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EhW-Qt-una" kind="relationship" relationship="rootViewController" id="3mh-7Q-Nkc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZH3-Cc-Riw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1143" y="-878"/>
+        </scene>
+        <!--Jeux du pendu-->
         <scene sceneID="ahV-Bs-zUj">
             <objects>
                 <viewController id="EhW-Qt-una" customClass="GameViewController" customModule="pendu" customModuleProvider="target" sceneMemberID="viewController">
-                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <tabBarItem key="tabBarItem" title="Dictionnaire" id="1DE-hv-9F0"/>
+                    <navigationItem key="navigationItem" title="Jeux du pendu" largeTitleDisplayMode="always" id="Pu1-JG-RrE">
+                        <barButtonItem key="rightBarButtonItem" title="Nouvelle Parie" id="eT6-Xw-F8S">
+                            <connections>
+                                <action selector="reset" destination="EhW-Qt-una" id="oYa-GP-QCd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="isMovie" value="NO"/>
                     </userDefinedRuntimeAttributes>

@@ -16,9 +16,12 @@ import UIKit
     func showState(){
         self.answerLabel.text = self.game?.output
         self.wrong.text = self.game?.remaining
-        if(game?.state == .ended){
+        if(game?.state == .win){
             keyboard.disable()
-            view.backgroundColor = UIColor.systemBlue
+            view.backgroundColor = UIColor(named: "bgColorWin")
+        } else if game?.state == .fail {
+            keyboard.disable()
+            view.backgroundColor = UIColor(named: "bgColorFail")
         }
     }
     
@@ -37,17 +40,17 @@ import UIKit
             self.game = Game(word: words)
             self.keyboard.reset()
             self.showState()
-            self.view.backgroundColor = UIColor.systemPink
+            if self.isMovie {
+                self.view.backgroundColor = UIColor(named: "bgColorGameMovie")
+            } else {
+                self.view.backgroundColor = UIColor(named: "bgColorGame")
+            }
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if isMovie {
-            view.backgroundColor = UIColor.systemBlue
-        } else {
-            view.backgroundColor = UIColor.systemPink
-        }
+        
         keyboard.controller = self
         game = Game(word:"Hello World")
         showState()

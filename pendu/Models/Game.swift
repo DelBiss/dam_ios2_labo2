@@ -9,7 +9,7 @@ import Foundation
 
 class Game{
     enum  State {
-        case ongoing, ended
+        case ongoing, ended, win, fail
     }
     
     private var word:String
@@ -48,14 +48,14 @@ class Game{
             } else {
                 wrong = wrong + 1
                 if wrong >= maxWrong{
-                    state = .ended
+                    state = .fail
                 }
             }
         }
     }
     
     private func out(_ word:String,_  guess:String) -> String {
-        if(state == .ended){
+        if(state == .fail){
                 return word
         }
         
@@ -81,7 +81,7 @@ class Game{
             output = output + currentLetter
         }
         if(isComplete){
-            state = .ended
+            state = .win
         }
         return output
         
